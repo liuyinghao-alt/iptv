@@ -57,11 +57,11 @@ https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L22/425fb6b1/8a250afc.isml/.m3u8
 # Japanese
 #EXTINF:-1 tvg-id="JOCXDTV.jp" tvg-country="JP" group-title="Japanese",Fuji TV Japan
 https://fujitv4.mov3.co/hls/fujitv.m3u8
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="JP" group-title="Japanese",NHK World-Japan - rights-holder related public stream
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="JP" group-title="Japanese",NHK World-Japan
 https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 
 # Korean
-#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="KR" group-title="Korean",KBS World Korea - rights-holder related public stream
+#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="KR" group-title="Korean",KBS World Korea
 https://liveh12.vtvprime.vn/hls/KBS/03.m3u8
 
 # Russian
