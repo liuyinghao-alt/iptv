@@ -1,0 +1,71 @@
+#EXTM3U
+# FIFA World Cup 2026 candidate IPTV playlist grouped by language.
+# Stream URLs are taken from iptv-org public data where available.
+# Broadcaster selection is based on currently published FIFA World Cup 2026 media-rights information.
+# Availability is not guaranteed: channels can be geo-blocked, unavailable during matches, or changed by rightsholders.
+
+# English
+#EXTINF:-1 tvg-id="BBCOne.uk" tvg-country="UK" group-title="English",BBC One UK
+https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/mobile_wifi_main_hd_abr_v2.m3u8
+#EXTINF:-1 tvg-id="BBCTwo.uk" tvg-country="UK" group-title="English",BBC Two UK
+https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/mobile_wifi_main_hd_abr_v2.m3u8
+#EXTINF:-1 tvg-id="ITV1.uk" tvg-country="UK" group-title="English",ITV1 UK
+http://80.194.62.172:50002/stream/channelid/95929545
+#EXTINF:-1 tvg-id="FoxSports1.us" tvg-country="US" group-title="English",Fox Sports 1 US
+https://cors-proxy.cooks.fyi/http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
+
+# Spanish
+#EXTINF:-1 tvg-id="TelemundoInternacional.us" tvg-country="US" group-title="Spanish",Telemundo Internacional
+http://138.121.15.230:9002/TELEMUNDO/index.m3u8
+#EXTINF:-1 tvg-id="NBCUniverso.us" tvg-country="US" group-title="Spanish",NBC Universo US
+http://190.11.225.124:5000/live/universo_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal5.mx" tvg-country="MX" group-title="Spanish",Canal 5 Mexico
+http://45.5.119.43:4000/play/a05o/index.m3u8
+#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-country="MX" group-title="Spanish",Las Estrellas Mexico
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+#EXTINF:-1 tvg-id="La1.es" tvg-country="ES" group-title="Spanish",La 1 Spain
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main.m3u8
+#EXTINF:-1 tvg-id="Teledeporte.es" tvg-country="ES" group-title="Spanish",Teledeporte Spain
+https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8
+
+# Portuguese
+#EXTINF:-1 tvg-id="CazeTV.br" tvg-country="BR" group-title="Portuguese",CazeTV Brazil
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
+#EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" group-title="Portuguese",RTP 1 Portugal
+https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SIC.pt" tvg-country="PT" group-title="Portuguese",SIC Portugal
+https://sic.live.impresa.pt/sic.m3u8
+#EXTINF:-1 tvg-id="TVI.pt" tvg-country="PT" group-title="Portuguese",TVI Portugal
+https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8
+
+# German
+#EXTINF:-1 tvg-id="DasErste.de" tvg-country="DE" group-title="German",Das Erste Germany
+https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
+#EXTINF:-1 tvg-id="ZDF.de" tvg-country="DE" group-title="German",ZDF Germany
+https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
+#EXTINF:-1 tvg-id="ORF2.at" tvg-country="AT" group-title="German",ORF 2 Austria
+https://orf2-247.mdn.ors.at/orf/orf2/qxa-247/manifest.m3u8
+#EXTINF:-1 tvg-id="ServusTV.at" tvg-country="AT" group-title="German",ServusTV Austria
+https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8
+
+# French
+#EXTINF:-1 tvg-id="M6.fr" tvg-country="FR" group-title="French",M6 France
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_q2hyb21h/index-hd720.m3u8
+#EXTINF:-1 tvg-id="Tipik.be" tvg-country="BE" group-title="French",Tipik Belgium RTBF
+https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L22/425fb6b1/8a250afc.isml/.m3u8
+
+# Japanese
+#EXTINF:-1 tvg-id="JOCXDTV.jp" tvg-country="JP" group-title="Japanese",Fuji TV Japan
+https://fujitv4.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-country="JP" group-title="Japanese",NHK World-Japan
+https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
+
+# Korean
+#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-country="KR" group-title="Korean",KBS World Korea
+https://liveh12.vtvprime.vn/hls/KBS/03.m3u8
+
+# Russian
+#EXTINF:-1 tvg-id="MatchArena.ru" tvg-country="RU" group-title="Russian",Match! Arena Russia
+http://31.148.48.15/Match_Arena_HD/index.m3u8
+#EXTINF:-1 tvg-id="MatchPlaneta.ru" tvg-country="RU" group-title="Russian",Match! Planeta Russia
+https://cdn4.skygo.mn/live/disk1/Match_Planeta/HLSv3-FTA/Match_Planeta.m3u8
